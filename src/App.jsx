@@ -54,7 +54,7 @@ const App = () => {
           />
           
         </form>
-          <h1>restarent</h1>
+         
 
         {error && <p style={{ color: 'red' }}>{error}</p>}
         {data.length > 0 && <Products recipes={data} />}
